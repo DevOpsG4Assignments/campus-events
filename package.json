@@ -1,0 +1,19 @@
+{
+  "name": "campus-events",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevOpsG4Assignments/campus-events.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevOpsG4Assignments/campus-events/issues"
+  },
+  "homepage": "https://github.com/DevOpsG4Assignments/campus-events#readme",
+  "description": ""
+}
