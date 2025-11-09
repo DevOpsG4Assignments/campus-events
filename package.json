@@ -15,5 +15,8 @@
     "url": "https://github.com/DevOpsG4Assignments/campus-events/issues"
   },
   "homepage": "https://github.com/DevOpsG4Assignments/campus-events#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.16.1"
+  }
 }
