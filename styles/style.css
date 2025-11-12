@@ -588,3 +588,72 @@ body {
   background: rgba(11, 95, 109, 0.08);
   transform: translateY(-1px);
 }
+
+/* -------------------------
+   ABOUT PAGE STYLES
+----------------------------*/
+
+.about-hero {
+  margin: 32px 0;
+  background: var(--card);
+  border: 1px solid #e9f0f2;
+  border-radius: 14px;
+  padding: 28px;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 780px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Team */
+.team-section {
+  margin: 40px 0;
+}
+
+.team-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.team-card {
+  background: var(--card);
+  border: 1px solid #e9f0f2;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 26px rgba(10,20,30,0.08);
+}
+
+.team-img {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.team-name {
+  margin: 6px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.team-role {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.team-desc {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
