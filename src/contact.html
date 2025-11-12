@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="site-title">Campus Events</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="events.html">Events</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <section class="contact-section" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Get in Touch</h2>
+      <p class="section-sub">We’d love to hear from you! Reach out via the form or connect on social media.</p>
+
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <h3 class="social-title">Connect with us</h3>
+          <a class="social-link" href="./index.html" target="_blank">📘 Facebook</a>
+          <a class="social-link" href="./index.html" target="_blank">🐦 Twitter</a>
+          <a class="social-link" href="./index.html" target="_blank">📸 Instagram</a>
+          <a class="social-link" href="mailto:info@campusevents.edu">✉️ Email Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
